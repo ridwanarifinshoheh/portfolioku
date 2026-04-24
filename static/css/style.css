@@ -328,6 +328,12 @@ body.light-mode .glass {
     text-align: justify;
     text-justify: inter-word;
     line-height: 1.8;
+    max-width: 750px;
+    margin: auto;
+
+    hyphens: auto;              /* pecah kata otomatis */
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
 }
 
 .btn-wa {
@@ -413,4 +419,13 @@ p {
 /* PREVIEW HOVER */
 .btn-preview:hover {
     background: rgba(255,255,255,0.1);
+}
+
+/*Fix Mobile*/
+@media (max-width: 768px) {
+    .about-text {
+        text-align: justify;
+        line-height: 1.9;
+        padding: 0 10px;
+    }
 }
