@@ -558,3 +558,28 @@ html {
         width: 100%;
     }
 }
+
+.contact-box {
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+/* EMAIL */
+.contact-email {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* BUTTON FIX */
+.btn-wa {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
