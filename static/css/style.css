@@ -286,6 +286,12 @@ body.light-mode .glass {
     border-radius: 50%;
     border: 3px solid var(--primary);
     box-shadow: 0 0 20px rgba(124,58,237,0.4);
+    
+}
+
+.profile-img {
+    display: block;
+    margin: 0 auto 20px auto;
 }
 
 /* SECTION TITLE */
@@ -324,16 +330,26 @@ body.light-mode .glass {
     color: var(--muted);
 }
 
+/* WRAPPER */
+.about-text-wrapper {
+    max-width: 750px;
+    margin: auto;
+}
+
+/* PARAGRAF */
 .about-text {
     text-align: justify;
     text-justify: inter-word;
     line-height: 1.8;
-    max-width: 750px;
-    margin: auto;
 
-    hyphens: auto;              /* pecah kata otomatis */
+    hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
+}
+
+/* SPACING PARAGRAF */
+.about-text p {
+    margin-bottom: 18px;
 }
 
 .btn-wa {
@@ -425,7 +441,7 @@ p {
 @media (max-width: 768px) {
     .about-text {
         text-align: justify;
-        line-height: 1.9;
         padding: 0 10px;
+        line-height: 1.9;
     }
 }
