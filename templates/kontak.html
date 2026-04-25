@@ -1,20 +1,37 @@
 {% extends "base.html" %}
 {% block content %}
 
-<div class="contact-box container py-5">
-  <h1 class="contact-title">Contact</h1>
+<section class="contact-section">
 
-  <div class="contact-content">
-    <p class="contact-email">
-      ridwanarifinshoheh01@gmail.com
+  <div class="contact-card">
+
+    <h1 class="contact-title gradient-text">Contact Me</h1>
+
+    <p class="contact-subtitle">
+      Terbuka untuk kolaborasi, project, maupun diskusi.
     </p>
 
-    <a href="https://wa.me/6289655551347?text=Halo%20saya%20tertarik%20dengan%20portfolio%20Anda" 
-       target="_blank" 
-       class="btn-wa">
-      💬 Hubungi via WhatsApp
-    </a>
+    <div class="contact-items">
+
+      <!-- EMAIL -->
+      <div class="contact-item">
+        <span class="contact-icon">📧</span>
+        <p class="contact-text">ridwanarifinshoheh01@gmail.com</p>
+      </div>
+
+      <!-- WHATSAPP -->
+      <a href="https://wa.me/6289655551347?text=Halo%20saya%20tertarik%20dengan%20portfolio%20Anda"
+         target="_blank"
+         class="contact-btn">
+         
+        <span>💬 Hubungi via WhatsApp</span>
+
+      </a>
+
+    </div>
+
   </div>
-</div>
+
+</section>
 
 {% endblock %}
