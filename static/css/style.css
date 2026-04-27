@@ -623,3 +623,19 @@ body {
         margin-top: 80px;
     }
 }
+
+/* ======================
+   FOOTER
+====================== */
+.footer {
+    margin-top: 80px;
+    padding: 40px 0;
+    border-top: 1px solid var(--border);
+    text-align: center;
+
+    background: linear-gradient(
+        to top,
+        rgba(124,58,237,0.05),
+        transparent
+    );
+}
